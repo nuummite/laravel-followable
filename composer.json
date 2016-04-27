@@ -1,0 +1,21 @@
+{
+    "name": "nuummite/laravel-followable",
+    "description": "Helper traits to start your microblogging laravel application.",
+    "keywords": ["laravel", "microblogging", "followable"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "authors": [
+        {
+            "name": "Martin Mochetti",
+            "email": "martin.mochetti@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nuummite\\Followable\\": "src/"
+        }
+    }
+}
